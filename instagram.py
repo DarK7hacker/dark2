@@ -3,7 +3,6 @@ from time import sleep
 import webbrowser
 import random
 import requests
-from user_agent import generate_user_agent
 import json
 from secrets import token_hex
 import secrets
