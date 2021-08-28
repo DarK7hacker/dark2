@@ -71,13 +71,12 @@ _MMMMMMM9'   YMMMMM9    YMMMM9  _MM_   YM._
   ===  DUCK  CHEKAR  INSTAGRAM FREE  ===
 """
 
-print('COD BY   DARK')
+print('COD BY DARK')
 def j(z):
     for e in z:
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(3/100)
-j(Y+hunter)
 j('='*25)
 os.system("clear") 
 print('   ') 
