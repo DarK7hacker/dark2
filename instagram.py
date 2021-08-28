@@ -12,7 +12,6 @@ import uuid
 from uuid import uuid4
 from time import sleep
 import webbrowser
-import pyfiglet 
 import time
 aa=0
 zz=0
@@ -49,7 +48,29 @@ timee=time.asctime()
 print(timee)
 print('  ')
 
-hunter = pyfiglet.figlet_format("HAMA GYAN")
+os.system("xdg-open https://t.me/duck_hackerr")
+
+logo = """\033[1;32;40m
+
+                                           
+                                           
+________  ____     ___   ____   ___    __  
+`MMMMMMMb.`MM'     `M'  6MMMMb/ `MM    d'  @
+ MM    `Mb MM       M  8P    YM  MM   d'   
+ MM     MM MM       M 6M      Y  MM  d'    
+ MM     MM MM       M MM         MM d'     
+ MM     MM MM       M MM         MMd'      
+ MM     MM MM       M MM         MMYM.     
+ MM     MM MM       M MM         MM YM.    
+ MM     MM YM       M YM      6  MM  YM.   
+ MM    .M9  8b     d8  8b    d9  MM   YM.  
+_MMMMMMM9'   YMMMMM9    YMMMM9  _MM_   YM._
+                                           
+                                           
+                                           
+  ===  DUCK  CHEKAR  INSTAGRAM FREE  ===
+"""
+
 print('COD BY   DARK')
 def j(z):
     for e in z:
@@ -175,9 +196,9 @@ headers = {'User-Agent':'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x
 
              'Host':'i.instagram.com'}
 
-w = 'https://pastebin.com/raw/FwLVm5vC'
+w = 'https://pastebin.com/aXTrUmsa'
 rss = requests.get(w).text
-if '[VPN]' in rss:
+if '[DARK]' in rss:
     sleep(2)
     user = '1234567890'
     while True:
