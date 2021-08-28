@@ -96,7 +96,6 @@ def j(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(3/100)
-j(X+hunter1)
 print('  ')
 j(Y+'='*30)
 ask = j(F + '''
