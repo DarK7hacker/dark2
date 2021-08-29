@@ -50,7 +50,7 @@ print('  ')
 
 os.system("xdg-open https://t.me/duck_hackerr")
 
-logo = """\033[1;32;40m
+logo = """\033[1;37;40m
 
                                            
                                            
