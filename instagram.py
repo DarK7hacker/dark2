@@ -97,7 +97,7 @@ print('  ')
 j(Y+'~'*30)
 ask = j(F + '''
 <<< HACK INSTAGRAM FREE TOOL DUCK >>>\n''')  
-j(Y+'='*20)
+j(Y+'~'*20)
 sleep(1)
 print('  ') 
 tok = input (''+B+'('+A+'!'+X+')'+B+'  ⌯ TOKINE BOT TELEGRAM >>>:  '+F)
