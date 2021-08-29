@@ -55,20 +55,17 @@ logo = """\033[1;32;40m
                                            
                                            
 ________  ____     ___   ____   ___    __  
-`MMMMMMMb.`MM'     `M'  6MMMMb/ `MM    d'  @
+`MMMMMMMb.`MM'     `M'  6MMMMb/ `MM    d'  
  MM    `Mb MM       M  8P    YM  MM   d'   
  MM     MM MM       M 6M      Y  MM  d'    
  MM     MM MM       M MM         MM d'     
- MM     MM MM       M MM         MMd'      
+ MM     MM MM       M MM         MMd'    🦢
  MM     MM MM       M MM         MMYM.     
  MM     MM MM       M MM         MM YM.    
  MM     MM YM       M YM      6  MM  YM.   
  MM    .M9  8b     d8  8b    d9  MM   YM.  
 _MMMMMMM9'   YMMMMM9    YMMMM9  _MM_   YM._
-                                           
-                                           
-                                           
-  ===  DUCK  CHEKAR  INSTAGRAM FREE  ===
+                🐥
 """
 
 print('COD BY DARK')
@@ -77,7 +74,7 @@ def j(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(3/100)
-j('='*25)
+j('~'*25)
 os.system("clear") 
 print('   ') 
 print('   ')
@@ -97,10 +94,9 @@ def j(z):
         sys.stdout.flush()
         time.sleep(3/100)
 print('  ')
-j(Y+'='*30)
+j(Y+'~'*30)
 ask = j(F + '''
-<<<   [1]    Check in iRaQ KORK and ASIASEL   >>>
-INSTAGRAM CHRACK   TOOL BY DARK\n''')  
+<<< HACK INSTAGRAM FREE TOOL DUCK >>>\n''')  
 j(Y+'='*20)
 sleep(1)
 print('  ') 
@@ -114,7 +110,7 @@ er = input (''+B+'('+A+'!'+X+')'+B+'  ⌯ Hlbzhera 50 yan 70 >>>:  '+F)
 print('  ') 
 oe = input (''+B+'('+A+'!'+X+')'+B+'  ⌯ pass agar 50 bw bnwsa 750 >>> agar 70 bw   770 >>:  '+F)
 print('  ')
-j('-'*30)
+j('~'*30)
 print('  ')
 import time
 t = time.localtime()
